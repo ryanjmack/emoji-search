@@ -5,4 +5,7 @@
 * @import "../../stylesheets/variables.scss";
 ***********************************************************************/
 .App {
-  color: salmon; }
+  color: #333;
+  width: 100%; }
+  .App h1 {
+    text-align: center; }

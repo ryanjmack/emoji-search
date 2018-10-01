@@ -1,8 +1,11 @@
-// example variable.scss import
 @import "../../stylesheets/variables.scss";
 
 
 .App {
-  // Add styles here
-  color: $salmon;
+  color: $text-color;
+  width: 100%;
+
+  h1 {
+    text-align: center;
+  }
 }
