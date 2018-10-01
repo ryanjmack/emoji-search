@@ -1,0 +1,46 @@
+
+.EmojiList {
+  font-size: 1rem;
+  width: 100%;
+
+  .emoji-list__row {
+    align-items: center;
+    border-top: 1px solid #bbb;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+    &:hover {
+      background-color: #eee;
+      cursor: pointer;
+    }
+
+    &:hover .click-instructions {
+      opacity: 1;
+    }
+  }
+
+  .click-instructions {
+    color: #888;
+    font-size: 1em;
+    opacity: 0;
+
+    @media (min-width: 30em) {
+      font-size: 1.2em;
+    }
+  }
+
+  .info {
+    align-items: center;
+    display: flex;
+  }
+
+  .symbol {
+    font-size: 1.4em;
+    padding-right: 0.3em;
+  }
+
+  .title {
+    font-size: 1.1em;
+  }
+}
