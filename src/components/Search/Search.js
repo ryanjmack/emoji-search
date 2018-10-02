@@ -10,7 +10,7 @@ class Search extends React.Component {
   }
 
   filterResults(e) {
-    const input = e.target.value;
+    const input = e.target.value.toLowerCase();
 
      this.props.returnSearchResults(
       this.props.emojis.filter(emoji => {
