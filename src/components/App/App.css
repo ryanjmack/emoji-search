@@ -6,7 +6,7 @@
 ***********************************************************************/
 .App {
   color: #333;
-  max-width: 100vw; }
+  max-width: 100%; }
   .App h1 {
     margin-bottom: 0;
     text-align: center; }
