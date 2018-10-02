@@ -1,0 +1,18 @@
+/***********************************************************************
+* File that contains variables that components van utilize.
+*
+* This is what the import will look like for most component/*.scss files
+* @import "../../stylesheets/variables.scss";
+***********************************************************************/
+.Search {
+  display: flex;
+  margin: 2em;
+  max-width: 100%; }
+  .Search input {
+    color: #333;
+    flex: 1 1;
+    font-size: 1.2rem;
+    padding: 0.5em; }
+    .Search input::placeholder {
+      color: #777;
+      font-style: italic; }
