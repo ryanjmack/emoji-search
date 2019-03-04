@@ -4,7 +4,7 @@ This is a simple emoji search built with [React.js](https://www.google.com/url?s
 
 ## Getting Started
 
-Check out the [live demo](https://ryanmack-crypto-tracker.herokuapp.com/)!
+Check out the [live demo](https://ryanjmack.github.io/emoji-search/)!
 
 You can search by keyword or by emoji name. If you click on the row, that emoji will be copied to the clipboard!
 
